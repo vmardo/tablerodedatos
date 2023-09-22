@@ -1,0 +1,77 @@
+:root{
+
+    --celesteClaro: hsl(193, 38%, 86%);
+    --verdeNeon: hsl(150, 100%, 66%);
+    --azulGris: hsl(217, 19%, 38%);
+    --azulOscuroGris: hsl(217, 19%, 24%);
+    --azulOscuro: hsl(218, 23%, 16%);
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px; /*transformar escala de 1rem a 10px*/
+    background-color: var(--azulOscuro);
+    font-family: 'Manrope', sans-serif;
+    color: var(--celesteClaro);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    margin-top: 4rem;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}
+
+button{
+    border-radius: 2rem;
+}
+
+.clima-tu-ciudad{
+    background-color: var(--azulOscuroGris);
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+}
+
+.icono-estado{
+    width: 5rem;
+    height: 5rem;
+}
+
+.temperatura{
+    font-size: 8rem;
+}

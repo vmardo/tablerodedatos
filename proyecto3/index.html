@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Clima</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+
+    <div class="container">
+
+
+    <h1>Dashboard Clima</h1>
+
+
+        <header class="header">
+            <form action="" id="formulario">
+
+                <input type="text" placeholder="El tiempo en..." id="busqueda">
+                <button type="submit">Buscar</button>
+            </form>
+        </header>
+
+
+        <div class="clima-tu-ciudad">
+            <h3>El tiempo en <span></span></h3>
+            <p class="hora">11:00</p>
+    
+            <p class="estado">Cielos cubiertos</p>
+            <div class="flex">
+                <img src="" alt="icono-estado" class="icono-estado">
+                <p class="temperatura margin-0"> <span>20</span>°C</p>
+            </div>
+            <p class="humedad">Humedad: <span></span></p>
+        </div>
+    </div>
+
+
+    <h2>Clima en las ciudades mas importantes de Chile</h2>
+
+
+    <div>
+        <canvas id="miGrafico"></canvas>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
