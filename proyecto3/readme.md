@@ -8,5 +8,10 @@ Este es un proyecto de tablero de datos interactivo creado con HTML, CSS y JavaS
 - CSS: Para estilizar y dar formato a la página.
 - JavaScript: Para interactuar con la API y procesar datos.
 - API de Pronóstico del Tiempo: Se utiliza para obtener datos actualizados sobre el clima.
-- Libreria Chart js: La construccion de un grafico de Barras 
+- Libreria Chart js: Para la construccion de un grafico de Barras 
+
+## link :
+- Github : https://github.com/vmardo/tablerodedatos
+- Pagina web: https://vmardo.github.io/tablerodedatos/
+- API: https://api.gael.cloud/general/public/clima
 
